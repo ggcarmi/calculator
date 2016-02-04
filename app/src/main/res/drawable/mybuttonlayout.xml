@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:state_pressed="true" >
+        <shape android:shape="rectangle"  >
+            <corners android:radius="5dip" />
+            <stroke android:width="1dip" android:color="#790601" />
+            <!-- this the color of the top and buttom, when  pressing the button -->
+            <gradient android:angle="-90" android:startColor="#ff7700" android:endColor="#e77007" />
+        </shape>
+    </item>
+
+    <item android:state_focused="true">
+        <shape android:shape="rectangle"  >
+            <corners android:radius="5dip" />
+            <stroke android:width="1dip" android:color="#e6e606" />
+            <solid android:color="#85006c" />
+        </shape>
+    </item>
+
+    <item >
+        <shape android:shape="rectangle"  >
+            <corners android:radius="5dip" />
+            <stroke android:width="1dip" android:color="#1e1e1e" />
+            <!-- this the color of the top and buttom, before  pressing the button -->
+            <gradient android:angle="-90" android:startColor="#999c98" android:endColor="#c9c9c9" />
+        </shape>
+    </item>
+
+</selector>
